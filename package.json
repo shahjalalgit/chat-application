@@ -1,0 +1,32 @@
+{
+    "name": "chat-application",
+    "version": "1.0.0",
+    "description": "Node js chat application",
+    "main": "app.js",
+    "scripts": {
+        "start": "SET NODE_ENV=development & nodemon app/app.js",
+        "prod": "SET NODE_ENV=production & node app/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "prod": "git+https://github.com/shahjalalgit/chat-application-backend.git"
+    },
+    "author": "shahjalal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shahjalalgit/chat-application-backend/issues"
+    },
+    "homepage": "https://github.com/shahjalalgit/chat-application-backend#readme",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2",
+        "express-validator": "^6.14.3",
+        "http-errors": "^2.0.0",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^6.9.0",
+        "multer": "^1.4.5-lts.1"
+    }
+}
